@@ -20,7 +20,7 @@ node* reverse(node* head) {
 
 
 
-// here is my created linked list 
+// here is my created linked list for 5 numbers and the head is passed to above reverse function
 
 /*
 
