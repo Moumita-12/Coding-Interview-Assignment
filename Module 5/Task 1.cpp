@@ -1,9 +1,9 @@
 // following function to reverse of a singly linked list
 
-ListNode* reverseList(ListNode* head) {
-    ListNode* prevptr = NULL;
-    ListNode* currentptr= head;
-    ListNode* nextptr;
+node* reverse(node* head) {
+    node* prevptr = NULL;
+    node* currentptr= head;
+    node* nextptr;
 
     while(currentptr!=NULL){
         nextptr = currentptr->next;
